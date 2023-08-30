@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY PORTFOLIO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            background-color: rgb(9, 48, 80);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100PX;
+            background-color: rgb(0, 100, 53);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(216, 140, 235);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            height: 1.2px;
+            border: #9c97f1;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 140px 0;
+        }
+
+        .firstsection>div {
+            width: 80%;
+        }
+
+        .leftsection {
+            font-size: 3rem;
+            padding-left: 90px;
+        }
+
+        .leftsection .button {
+            padding: 50px 0;
+        }
+
+        .leftsection .btn {
+            background-color: rgb(67, 21, 109);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .rightsection img {
+            float: right;
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(154, 98, 206);
+        }
+
+        #element {
+            color: rgb(187, 140, 226);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondsection .box {
+            background-color: rgb(255, 255, 255);
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .gray {
+            color: gray;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 72px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14pxs;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: grey;
+            width: 150px;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: #99188f;
+
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer.footer-rights {
+            text-align: center;
+            color: rgb(128, 128, 128);
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">MY PORTFOLIO</div>
+            <div class="right"></div>
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PROJECT</a></li>
+            </ul>
+
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+
+            <div class="leftsection">Hi, My Name is <span class="purple">Satyam</span>
+                <div> I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+
+            <div class="rightsection"><img
+                    src="https://cdn.pixabay.com/photo/2018/05/28/09/32/technology-3435575_1280.jpg"></div>
+
+
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="gray"> what I have learnt so far</span>
+            <h1>MY SKILLS</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg"
+                        alt="">
+                    <div class="vertical-title">
+                        C PROGRAMMING
+                    </div>
+                    <div class="vertical-desc">
+                        The C programming language is a procedural and general-purpose language that provides low-level
+                        access to system memory. A program written in C must be run through a C compiler to convert it
+                        into an executable that a computer can run. 
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg"
+                        alt="">
+                    <div class="vertical-title">
+                        JAVA PROGRAMMING
+                    </div>
+                    <div class="vertical-desc">
+                        Java is a widely-used programming language for coding web applications. It has been a popular
+                        choice among developers for over two decades, with millions of Java applications in use today.
+                        Java is a multi-platform, object-oriented, and network-centric language that can be used as a
+                        platform in itself.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg"
+                        alt="">
+                    <div class="vertical-title">
+                        HTML
+                    </div>
+                    <div class="vertical-desc">
+                        HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating
+                        Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements.
+                        HTML elements tell the browser how to display the content.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg"
+                        alt="">
+                    <div class="vertical-title">
+                        CSS
+                    </div>
+                    <div class="vertical-desc">
+                        CSS is the acronym of “Cascading Style Sheets”. CSS is a computer language for laying out and
+                        structuring web pages (HTML or XML). This language contains coding elements and is composed of
+                        these “cascading style sheets” which are equally called CSS files (. css).
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top"
+                        src="https://cdn.pixabay.com/photo/2018/05/08/08/44/artificial-intelligence-3382507_1280.jpg"
+                        alt="">
+                    <div class="vertical-title">
+                        JAVASCRIPT
+                    </div>
+                    <div class="vertical-desc">
+                        JavaScript is a scripting language used to develop web pages. Developed in Netscape, JS allows
+                        developers to create a dynamic and interactive web page to interact with visitors and execute
+                        complex actions. It also enables users to load content into a document without reloading the
+                        entire page.
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Satyam's PORTFOLIO</h3>
+            </div>
+
+
+            <div class="footer-rights">
+                Copyright &#169; www.satyamsportfolio.com| All Rights Reserved
+            </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>WEB</i> DEVELOPER.', 'a GRAPHIC DESIGNER', '&amp; a WEB DESIGNER'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
